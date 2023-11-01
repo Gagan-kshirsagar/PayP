@@ -1,0 +1,59 @@
+#container{
+
+  /* display: block; */
+
+  height: 96vh;
+
+  background-image: url(/assets/images/21845842_2111.w026.n002.1096B.p1.1096.jpg);
+
+  background-size: cover;
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+.header {
+  margin: 0.25rem 0;
+  font-size: 2.5rem;
+ }
+
+ .overflow-hidden > p {
+  margin: 0.5rem 0;
+  font-size: 22px;
+ }
+
+
+ /* animation class and keyframes */
+ .overflow-hidden {
+  overflow: hidden;
+ }
+
+ .drop-in {
+  animation: drop-in 1s ease 200ms backwards;
+ }
+
+ .drop-in-2 {
+  animation: drop-in 1200ms ease 500ms backwards;
+ }
+
+ @keyframes drop-in {
+  from {
+   opacity: 0;
+   transform: translateY(-100px);
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+ }
+
+.modal-content{
+
+  background-color:transparent;
+
+  border:none;
+}

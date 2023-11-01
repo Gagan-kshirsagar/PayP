@@ -1,0 +1,34 @@
+#container{
+
+  display: block;
+
+  height: 100vh;
+
+  background-image: url(src/assets/images/26568835_2203_w026_n002_1529b_p1_1529.jpg);
+
+  background-size: 100%;
+
+  background-size: cover;
+
+}
+
+#box{
+
+  display: block;
+
+  height: 650px;
+
+  display: grid;
+
+  align-items: center;
+
+  justify-content: start;
+
+}
+
+.modal-content{
+
+  background-color:transparent;
+
+  border:none;
+}
